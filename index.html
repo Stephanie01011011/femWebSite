@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Elect Women</title>
+<meta charset="utf-8">
+<meta name="description" content="Elect Women is a feminist online organization that aims to help women and men become more informed on women's rights, policies, charities, and rallies.">
+  
+<link rel="stylesheet" href="feminist.css">
+    </head>
+    <body><div id="wrapper"><header><div id="mainPic" alt="Elect Women logo"></div><h1>Elect Women!</h1><br></header><hr><nav><a href="index.html">Home</a><a href="aboutus.html">About us</a><a href="feministmovement.html">Feminist Movement</a><a href="politicalleaders.html">Political Leaders</a><a href="charities.html">Charities</a><a href="rallies.html">Rallies and Protests</a></nav>
+        
+<main>
+            <h2> Welcome to Elect Women</h2>
+            <h3 id="date">Today is
+<script>
+window.alert("Welcome to Elect Women! Check if there are any rallies in your area on the rallies and protests page!");
+var myDate = new Date()
+var month = myDate.getMonth() + 1
+var day = myDate.getDate()
+var year = myDate.getFullYear()
+document.write(month + "/" + day + "/" + year)
+</script>
+</h3>
+
+            <h4>Sign up for our E-Newsletter!</h4>
+            <form method="post" action="signup.html"><label for="myName" >Name: <input type="text" id="myName"></label><label for="myEmail">E-mail: <input type="email" id="myEmail"></label><label>Age: <select><option value="">Choose your age range</option><option value="0-13">0 - 13</option><option value="14-21">14 - 21</option><option value="22-35">22 - 35</option><option value="36-55">36 - 55</option><option value="56+">56 +</option></select></label><button type="submit">Sign up</button></form>
+            <h4>Take a second to view this crash course video on womens suffrage</h4>
+            <iframe src="https://www.youtube.com/embed/HGEMscZE5dY" title="Womens suffrage movement"></iframe>
+             <p style="clear: both; text-align: center; margin: 10px;">52384 feminist way<br>Indianapolis, IN 46250<br></p>
+        </main>
+        <aside><h2>Take our survey!</h2><p>Take a little time out of your day to answer a few questions about feminism and how you found Elect Women!</p><form method="post" action="forms.html">Would you consider yourself a feminist?<br><input type="radio" name="fem" value="Yes" id ="Yes"><label for="Yes">Yes</label><input type="radio" id="No" value="No" name="fem"><label for="No">No</label>What political party do you most agree with?<br><input type="radio" value="Republican" name="party">Republican<br><input type="radio" value="Democrat" name="party">Democrat<br><input type="radio" value="other" name="party" id="other">Other<br>How did you find Elect Women! ?<br><select><option value="Pick one">Pick one</option><option value="Google search">Google Search</option><option value="FB, Insta, Twitter">FB, Insta, Twitter</option><option value="Friend/ Family">Friend/ Family</option><option value="other">Other</option></select><input type="submit" value="Submit"></form></aside>
+        <footer>Copywrite &copy; 2020 Elect Women!</footer>
+        </div></body> 
